@@ -61,7 +61,7 @@ end
 
 -- climbable air!
 minetest.register_node("handholds:climbable_air", {
-	description = "Air!",
+	description = "Подъёмный воздух!",
 	drawtype = "airlike",
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -79,7 +79,7 @@ minetest.register_node("handholds:climbable_air", {
 
 -- handholds nodes
 minetest.register_node("handholds:stone", {
-	description = "Stone Handholds",
+	description = "Каменный поручень",
 	tiles = {
 		"default_stone.png", "default_stone.png", 
 		"default_stone.png", "default_stone.png", 
@@ -98,7 +98,7 @@ minetest.register_node("handholds:stone", {
 })
 
 minetest.register_node("handholds:desert_stone", {
-	description = "Desert Stone Handholds",
+	description = "Поручень из пустынного камня",
 	tiles = {
 		"default_desert_stone.png", "default_desert_stone.png", 
 		"default_desert_stone.png", "default_desert_stone.png", 
@@ -117,7 +117,7 @@ minetest.register_node("handholds:desert_stone", {
 })
 
 minetest.register_node("handholds:sandstone", {
-	description = "Sandstone Handholds",
+	description = "Поручень из песчаника",
 	tiles = {
 		"default_sandstone.png", "default_sandstone.png", 
 		"default_sandstone.png", "default_sandstone.png", 
@@ -136,7 +136,7 @@ minetest.register_node("handholds:sandstone", {
 })
 
 minetest.register_node("handholds:ice", {
-	description = "Ice Handholds",
+	description = "Ледяной поручень",
 	tiles = {
 		"default_ice.png", "default_ice.png", 
 		"default_ice.png", "default_ice.png", 
@@ -160,7 +160,7 @@ minetest.register_node("handholds:ice", {
 
 -- handholds tool
 minetest.register_tool("handholds:climbing_pick", {
-	description = "Climbing Pick",
+	description = "Ледоруб",
 	inventory_image = "handholds_tool.png",
 	sound = {breaks = "default_tool_breaks"},
 	on_use = function(itemstack, player, pointed_thing)
